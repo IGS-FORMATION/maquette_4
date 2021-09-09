@@ -1,0 +1,307 @@
+:root
+{
+    --couleur_blanche: #ffff;
+    --nav_color:hsla(0, 0%, 100%, 0.897);
+    --section_color: rgba(22, 22, 145, 0.692);
+}
+#container
+{
+    background-color: white;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    
+}
+
+body
+{
+    margin: 0;
+    padding: 15px;
+    background-color: wheat; 
+    
+}
+
+.bleu
+{
+    overflow: hidden;
+    background-color: rgb(92, 92, 241);
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    height: 600px;
+}
+
+header nav
+{
+    float: right;
+    margin-right: 60px;
+   
+}
+header nav ul li
+{
+    display: inline-block;
+    
+}
+
+header nav ul li a
+{
+    margin-right: 30px;
+    color: var(--nav_color);
+    text-decoration: none;
+}
+header h2
+{
+    float: left;
+    margin: 15px 50px;
+    color: var(--nav_color);
+    font-size: 20px;
+} 
+
+.recule
+{
+    margin-top: 180px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: var(--couleur_blanche);
+}
+.recule p
+{
+    margin-top: -40px;
+    font-size: 15px;
+    color: var(--nav_color);
+}
+.button
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border-radius: 0.5em;
+    cursor: pointer;
+    
+}
+.pointille
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 130px;
+    top: 170px;
+    color: var(--nav_color);
+    border-style: dashed;
+    border-radius: 10em;
+    z-index: 1;
+ 
+}
+.pain-1 img
+{
+    width: 150px;
+    position: absolute;
+    right: 350px;
+    top: 250px;
+    z-index: 2; 
+
+}
+.pain-2 img
+{
+    width: 150px;
+    position: absolute;
+    right: 60px;
+    top: 250px;
+    z-index: 2; 
+
+}
+.image-tomate-1 img
+{
+    width: 30px;
+    position: absolute;
+    right: 160px;
+    top: 200px;
+    z-index: 2; 
+
+}
+.image-tomate-2 img
+{
+     
+    width: 30px;
+    position: absolute;
+    right: 390px;
+    top: 400px;
+    z-index: 2; 
+}
+.carre
+{
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    right: 60px;
+    top: 400px;
+    z-index: 4; 
+    background-color: var(--couleur_blanche);
+    border-radius: 0.5em;
+}
+
+.carre h5
+{
+    margin-left: 70px;
+    margin-top: -50px;
+    font-size: 13px;
+}
+ .pizza-image img
+{
+    width: 340px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    right: 115px;
+    top: 145px;
+    z-index: 3;
+    
+} 
+.bordure-pizza
+{   
+ 
+    width: 265px;
+    height: 265px;
+    position: absolute;
+    right: 140px;
+    top: 183px;
+    color: var(--nav_color);
+    border: 8px solid maroon;
+    border-radius: 10em;
+    z-index: 3; 
+    
+} 
+.inegalite img
+{
+     
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 310px;
+    top: 462px;
+    z-index: 2;
+
+}
+
+/*section 1*/
+section
+{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+#best-food
+{
+    display: flex;
+}
+#best-food h1
+{
+    font-size: 40px;
+    color: var(--section_color);
+}
+#best-food p
+{
+ margin: 0;
+}
+
+ .image-gauche img
+{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 730px; 
+    top: 800px;
+    z-index: 2;
+    border-style: solid;
+    border-width: 10px;
+    color: var(--couleur_blanche);
+    
+}
+
+.image-droit img
+{
+    
+    position: absolute;
+    left: 900px;
+    top: 830px;
+    z-index: 1;
+    border-style: solid;
+    border-width: 10px;
+    color: var(--couleur_blanche);
+    
+} 
+#best-food .avantages
+{
+    margin-top: 20px;
+}
+#best-food .avantages i
+{
+    padding: 15px;
+}
+
+/*menu categories section 2*/
+#rond
+{
+    display: flex;
+   
+}
+.rond
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#menu-categories
+{
+    display: flex;
+    height: 600px;
+    margin-top: 150px;
+}
+#hoogies
+{
+    display: flex;
+    margin-left: 100px;
+    padding-left: 12px;
+    max-height: 310px;
+    border-left: 1px solid grey;
+    
+}
+#menu-categories img, h4, p
+{
+    margin-left: 20px;
+    border-radius: 0.5em;
+    
+}
+#menu-categories p
+{
+    color: grey;
+    
+}
+#menu-categories h1
+{
+    color: var(--section_color);
+    font-size: 40px;
+    
+}
+
+.button-2
+{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 0.5em;
+    color: var(--couleur_blanche);
+    background-color: blue;
+    cursor: pointer;
+}
+.im2, .images2
+{
+    width: 230px;
+    height: 225px;
+   
+}
+
+/*stylisé les classes */
+
